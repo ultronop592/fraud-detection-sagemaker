@@ -7,8 +7,8 @@ import boto3
 import sagemaker
 
 # ---- Required: edit these ----
-BUCKET = "your-bucket-name"          # e.g. "my-sagemaker-fraud-project"
-ROLE = "arn:aws:iam::<account-id>:role/service-role/AmazonSageMaker-ExecutionRole-XXXX"
+BUCKET = "srajal-fraud-detection"          # e.g. "my-sagemaker-fraud-project"
+ROLE = "arn:aws:iam::014498640665:role/service-role/AmazonSageMakerAdminIAMExecutionRole"
 
 # ---- S3 layout ----
 PREFIX = "fraud-detection"
